@@ -49,7 +49,7 @@ public class ProdutoController {
 		service.update(p);
 	}
 	
-	@DeleteMapping("/{id")
+	@DeleteMapping("/{id}")
 	@ResponseStatus(code = HttpStatus.NO_CONTENT)
 	public void deleteProduto(@PathVariable("id") Long produtoId) {
 		Produto p = getProdutoById(produtoId);

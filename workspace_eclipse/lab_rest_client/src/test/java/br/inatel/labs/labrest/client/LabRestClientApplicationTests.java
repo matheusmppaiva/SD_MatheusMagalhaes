@@ -1,13 +1,13 @@
-package br.inatel.labs.labrest.server;
+package br.inatel.labs.labrest.client;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LabRestServerApplicationTests {
+class LabRestClientApplicationTests {
 
-	/*@Test
+	@Test
 	void contextLoads() {
-	}*/
+	}
 
 }
